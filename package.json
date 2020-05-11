@@ -1,0 +1,28 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "This is the 3rd project for udacity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nutcracker2012/Weather-Journal-App.git"
+  },
+  "keywords": [
+    "Javascript",
+    "node",
+    "route"
+  ],
+  "author": "Qian Pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nutcracker2012/Weather-Journal-App/issues"
+  },
+  "homepage": "https://github.com/Nutcracker2012/Weather-Journal-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
