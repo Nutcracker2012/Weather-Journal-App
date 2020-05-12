@@ -10,7 +10,7 @@ This will require modifying the `server.js` file and the `website/app.js` file. 
 If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
 
 ## Port Number
-For this study exercise I pick 8000 as port number
+For this study exercise I pick 3080 as port number
 
 Detail Reference from IANA
 Service names and port numbers are used to distinguish between different
