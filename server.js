@@ -44,33 +44,14 @@ app.get('/all', function(req, res) {
 //crate an API named add
 app.post('/add', function(req, res) {
 
-    // let newEntry = {
-    //     temp: req.body.temp,
-    //     date: req.body.date,
-    //     content: req.body.content
-    // };
-    // projectData.push(newEntry);
-    // res.send(projectData);
-    // console.log(projectData);
-
-    // projectData.temp = req.body.temp;
-    // projectData.date = req.body.date;
-    // projectData.content = req.body.content;
-
-    // projectData.push(req.body);
-    // console.log(projectData);
-
-
-    let dataObject = {}
-    dataObject.date = req.body.date;
-    dataObject.temp = req.body.temp;
-    dataObject.content = req.body.content;
-
-    console.log(dataObject, typeof dataObject, 'dsjflajfldasjsfkl')
-
-    projectData.push(dataObject);
-
-    res.send(true);
+    let newEntry = {
+        temp: req.body.temp,
+        date: req.body.date,
+        content: req.body.content
+    };
+    projectData.push(newEntry);
+    res.send(projectData);
+    console.log(projectData);
 
 
 });
