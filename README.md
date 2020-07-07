@@ -44,6 +44,6 @@ npm start
 
 ## Project Screenshots
 ### App Home page
-![App screenshot](website/img/Screen_1.png)
+![App screenshot](website/img/Screen_3.png)
 ### App Data Return page
 ![App screenshot](website/img/Screen_2.png)
