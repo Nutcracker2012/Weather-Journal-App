@@ -23,3 +23,27 @@ documented in [RFC6335].
 Port numbers are assigned in various ways, based on three ranges: System
 Ports (0-1023), User Ports (1024-49151), and the Dynamic and/or Private
 Ports (49152-65535);
+
+## Run this application
+- Pre-requisite : Install node.js
+
+- unzip the projects folder.
+
+- install the dependencies
+
+```
+npm install
+
+```
+
+- Run the server.
+```
+npm start
+```
+- View the URL http://localhost:3080/ in browser
+
+## Project Screenshots
+### App Home page
+![App screenshot](website/img/Screen_1.png)
+### App Data Return page
+![App screenshot](website/img/Screen_2.png)
