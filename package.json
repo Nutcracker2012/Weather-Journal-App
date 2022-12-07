@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Nutcracker2012/Weather-Journal-App#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
